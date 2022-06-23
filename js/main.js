@@ -21,7 +21,7 @@ function  renderCountries (NewArr) {
     NewArr.forEach((Countries) => {
         const newTemp = elCountryTemplate.cloneNode(true)
         selectElement("#img", newTemp).src = Countries.flags.png
-        selectElement("#title", newTemp).textContent =  Countries.altSpellings[1];
+        selectElement("#title", newTemp).textContent =  Countries.altSpellings[0,1];
         selectElement("#population", newTemp).textContent ="Population:" + "  " + Countries.population
         selectElement("#region", newTemp).textContent ="Region:" + "  " + Countries.region
         selectElement("#capital", newTemp).textContent ="Capital:" + "  " + Countries.capital

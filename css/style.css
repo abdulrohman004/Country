@@ -127,6 +127,8 @@ img {
 }
 .hero-section__item-img{
     width: 100%;
+    height: 180px;
+    object-fit: cover;
 }
 .hero-section__item-content-wrapper{
     padding: 0 25px;
